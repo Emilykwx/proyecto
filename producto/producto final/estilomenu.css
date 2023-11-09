@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(IMG/ladrillosblanco.jpg);
+    margin-right: 0px;
+
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+
+    padding: 10px 10px 10px 10px;
+  }
+  header nav{
+    background-color: rgb(133, 82, 53)
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+
+
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  a:hover {
+    background: rgb(255, 255, 255);
+
+  }
+  h3 {
+    background: rgb(168, 99, 8);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  header {
+    width: 100%;
+    background: rgb(184, 197, 206);
+    position: fixed;
+    top: 0;
+  }
+
+  .item{
+      scroll-margin-top: 30ex;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  section .banner{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 0px;
+
+  }
+ .lunes{
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top:50px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+
+ }
+.martes{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+
+    
+ }
+ .miercoles{
+
+    float: right;
+    background-color: black;
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+ .jueves{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+
+.viernes{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+
+    
+ }
+ .sabado{
+
+    float: right;
+    background-color: black;
+    font-size: 30px;
+    width: 500px;
+    height: 250px;
+    line-height: 40px;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 150px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+ .domingo{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+ p{
+    color:#ffffff;
+ }
+ footer {
+    padding: 20px;
+    line-height: 35px;
+    height: 150px;
+    background-color: rgb(41, 25, 5);
+    text-align: center;
+    border-radius: 10px;
+}
+footer p{
+
+    font-size: 30px;
+}
+img{
+    margin: 25px 25px 25px 25px;
+    border-radius: 30px ;
+}
+@media (max-width: 992px) {
+    .baner{
+        width: 100%;
+        height: auto;
+
+    }
+
+    nav{
+        width: 100%;
+        height: 85px;
+
+    }
+
+    nav ul li a{
+        font-size: 24.5px;
+        padding: 10px 15px;
+        background-color: rgb(112, 54, 37);
+        
+
+    }
+    img{
+        width: 370px;
+    }
+    .lunes{
+        line-height: 32px;
+        width: 390px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+
+    }
+    .martes{
+        line-height: 32px;
+        width: 390px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+
+    }
+    .miercoles{
+        line-height: 32px;
+        width: 350px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+
+    }
+    .jueves{
+        line-height: 32px;
+        width: 390px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+
+    }
+    .viernes{
+        line-height: 32px;
+        width: 390px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+
+    }
+    .sabado{
+        line-height: 40px;
+        width: 370px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 2px;
+        margin-top: 20px;
+
+
+    }
+    .domingo{
+        line-height: 40px;
+        width: 390px;
+        font-size: 25px;
+        height: 250px;
+        margin-right: 36px;
+        padding-bottom: 5px;
+        padding-top: 40px;
+        margin-top: 40px;
+
+    }
+
+}
+@media (max-width: 768px) {
+    .baner{
+        width: 100%;
+        height: auto;
+
+    }
+    header nav{
+        width: 100%;
+
+    }
+
+    nav ul li a{
+        font-size: 17.5px;
+        padding: 10px 15px;
+        background-color: rgb(133, 82, 53);
+
+        
+
+    }
+    img{
+        width: 300px;
+    }
+    .lunes{
+        line-height: 30px;
+        width: 250px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+    .martes{
+        line-height: 30px;
+        width: 270px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+    .miercoles{
+        line-height: 30px;
+        width: 270px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+    .miercoles {
+        line-height: 30px;
+        width: 270px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+    #miercoles img{
+        height: 300px;
+    }
+    .jueves{
+        line-height: 30px;
+        width: 270px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+
+
+    }
+    .viernes{
+        line-height: 30px;
+        width: 270px;
+        font-size: 23px;
+        height: 230px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+
+    }
+    .sabado{
+        line-height: 30px;
+        width: 270px;
+
+        font-size: 23px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 25px;
+        padding-top: 50px;
+
+
+
+    }
+    .domingo{
+        line-height: 30px;
+        width: 270px;
+
+        font-size: 23px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 25px;
+        padding-top: 40px;
+
+
+    }
+    .contacto p{
+        font-size: 25px;
+    }
+}
+@media (max-width: 576px) {
+    .baner{
+        width: 100%;
+        height: auto;
+    }
+    header nav h1{
+        font-size: 40px;
+
+    }
+    header nav{
+        width: 100%;
+        background-color: rgb(255, 115, 0);
+ 
+
+    }
+
+    nav ul li a{
+        font-size: 18px;
+        padding: 10px 15px;
+        background-color: rgb(133, 82, 53);
+    }
+
+    img{
+        width: 220px;
+    }
+    .lunes{
+        line-height: 25px;
+        width: 160px;
+        font-size: 17px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+
+
+    }
+    .martes{
+        line-height: 25px;
+        width: 169px;
+        font-size: 14px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+
+
+    }
+
+    
+    .miercoles {
+        line-height: 25px;
+        width: 169px;
+        font-size: 19px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 10pxpx;
+        margin-bottom: 10px;
+
+
+    }
+    #miercoles img{
+        height: 200px;
+    }
+    .jueves{
+        line-height: 25px;
+        width: 169px;
+        font-size: 16px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 6px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        
+
+
+    }
+    .viernes{
+        line-height: 25px;
+        width: 169px;
+        font-size: 16px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 6px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+    .sabado{
+        line-height: 25px;
+        width: 169px;
+        font-size: 18px;
+        height: 150px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 35px;
+        margin-bottom: 5px;
+
+
+
+    }
+    .domingo{
+        line-height: 25px;
+        width: 169px;
+        font-size: 16px;
+        height: 170px;
+        margin-right: 20px;
+        margin-top: 17px;
+        padding-top: 24px;
+        margin-bottom: 10px;
+
+
+    }
+    .contacto p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 430px) {
+    .baner{
+        width: 340px;
+        height: auto;
+        padding-top: 100px;
+    }
+     header nav h1{
+        font-size: 25px;
+    }
+
+    h3{
+        width: 400px;
+        height: auto;
+        margin-right: 5px;
+        background-color: rgb(180, 90, 17);
+        display: block;
+        margin-top: 300px;
+
+ 
+
+    }
+
+    nav ul li a{
+        font-size: 6px;
+        height: 15px;
+        padding: 10px 15px;
+        background-color: rgb(133, 82, 53);
+    }
+
+    img{
+        width: 400px;
+    }
+    .uno{
+        height: 1000px;
+    }
+    .lunes{
+        line-height: 25px;
+        width: 300px;
+        font-size: 17px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        display: block;
+
+
+    }
+    .martes{
+        line-height: 25px;
+        width: 300px;
+        font-size: 14px;
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        display: block;
+
+
+    }
+
+    
+    .miercoles {
+        line-height: 25px;
+        width: 300px;
+        font-size: 19px;
+        height: 200px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+    #miercoles img{
+        height: 300px;
+    }
+
+    
+    .jueves{
+        line-height: 25px;
+        width: 300px;
+        font-size: 16px;
+        height: 200px;
+        margin-right: 15px;
+        margin-top: 6px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        
+
+
+    }
+    .viernes{
+        line-height: 25px;
+        width: 300px;
+        font-size: 16px;
+        height: 200px;
+        margin-right: 15px;
+        margin-top: 6px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+    .sabado{
+        line-height: 25px;
+        width: 300px;
+        font-size: 18px;
+        height: 150px;
+        margin-right: 15px;
+        margin-top: 20px;
+        padding-top: 35px;
+        margin-bottom: 5px;
+
+
+
+    }
+    .domingo{
+        line-height: 25px;
+        width: 300px;
+        font-size: 16px;
+        height: 170px;
+        margin-right: 15px;
+        margin-top: 17px;
+        padding-top: 24px;
+        margin-bottom: 10px;
+
+
+    }
+    footer{
+        margin-top: 300px;
+        width: 395px;
+        height: 200px;
+        margin-right: 100px;
+    }
+    .contacto p{
+        font-size: 15px;
+    }
+}
+

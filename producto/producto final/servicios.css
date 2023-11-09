@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(IMG/ladrillosblanco.jpg);
+    height: 1500px;
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+
+    padding: 10px 10px 10px 10px;
+
+
+  }
+ nav{
+    background-color: rgb(214, 120, 76);
+
+ }
+  ul {
+    display: flex;
+    list-style: none;
+
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  a:hover {
+    background: rgb(255, 255, 255);
+  }
+  h3 {
+    background: rgb(196, 131, 45);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  header {
+    width: 100%;
+    background: rgb(184, 197, 206);
+    position: fixed;
+    top: 0;
+  }
+#cumpleaños{
+    margin-top: 150px;
+}
+  .item{
+      scroll-margin-top: 19ex;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+ .uno{
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 200px;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+
+ }
+.dos{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 200px;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 80px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+
+    
+ }
+ .tres{
+
+    float: right;
+    background-color: black;
+    font-size: 30px;
+    width: 500px;
+    height: 200px;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 80px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+ .cuatro{
+
+    float: right;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    height: 230px;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-right: 200px;
+    text-align: justify;
+    border-radius: 30px;
+    
+ }
+ p{
+    color:#ffffff;
+ }
+ footer {
+    padding: 20px;
+    line-height: 35px;
+    height: 150px;
+    background-color: rgb(41, 25, 5);
+    text-align: center;
+    border-radius: 10px;
+}
+footer p{
+
+    font-size: 30px;
+}
+img{
+    margin: 25px 25px 25px 25px;
+    border-radius: 30px ;
+}
+@media (max-width: 1800px) {
+    .uno{
+        width: 500px;
+        margin-right: 100px;
+    }
+    .dos{
+        width: 500px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    .tres{
+        width: 500px;
+        margin-right: 100px;
+        margin-top: 170px;
+    }
+    .cuatro{
+        width: 500px;
+        margin-right: 100px;
+        margin-top: 24px;
+    }
+    img{
+        width: 500px;
+    }
+}
+@media (max-width: 1200px) {
+    .uno{
+        width: 400px;
+        margin-right: 100px;
+        font-size: 30px;
+    }
+    .dos{
+        width: 400px;
+        height: 250px;
+        margin-right: 100px;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .tres{
+        width: 400px;
+        height: 250px;
+        margin-right: 100px;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .cuatro{
+        width: 400px;
+        height: 250px;
+        margin-right: 100px;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    img{
+        width: 500px;
+    }
+}
+@media (max-width: 992px) {
+    .uno{
+        width: 350px;
+        height: 250px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 30px;
+        padding-top: 25px;
+
+    }
+    .dos{
+        width: 350px;
+        height: 215px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 23px;
+        padding-top: 25px;
+
+    }
+    .tres{
+        width: 350px;
+        height: 260px;
+        margin-right: 50px;
+        margin-top: 80px;
+        font-size: 30px;
+        padding-top: 25px;
+
+
+    }
+    #fechas img{
+        height: 400px;
+    }
+    .cuatro{
+        width: 350px;
+        height: 200px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 24px;
+        padding-top: 10px;
+
+    }
+    img{
+        width: 400px;
+    }
+}
+@media (max-width: 768px) {
+
+    .uno{
+        width: 300px;
+        height: 220px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 20px;
+        padding-top: 20px;
+
+    }
+    .dos{
+        width: 300px;
+        height: 220px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 20px;
+        padding-top: 20px;
+
+    }
+    .tres{
+        width: 300px;
+        height: 220px;
+        margin-right: 50px;
+        margin-top: 58px;
+        font-size: 20px;
+        padding-top: 20px;
+
+
+    }
+    #fechas img{
+        height: 300px;
+    }
+    .cuatro{
+        width: 300px;
+        height: 210px;
+        margin-right: 50px;
+        margin-top: 27px;
+        font-size: 18px;
+        padding-top: 20px;
+
+    }
+    img{
+        width: 250px;
+        height: 230px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 566px) {
+    h1{
+        font-size: 30px;
+    }
+    header nav ul li a{
+        font-size: 11px;
+        border-radius: 10px;
+    
+    }
+    .item h3{
+        scroll-margin-top: 5ex;
+    }
+    li a:hover{
+        background-color: rgb(150, 90, 31);
+    }
+    .uno{
+        width: 180px;
+        height: 110px;
+        margin-right: 20px;
+        margin-top: 27px;
+        line-height: 25px;
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 25px;
+
+
+    }
+    .dos{
+        width: 180px;
+        height: 110px;
+        margin-right: 20px;
+        margin-top: 27px;
+        line-height: 25px;
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 25px;
+
+
+    }
+    .tres{
+        width: 180px;
+        height: 150px;
+        margin-right: 20px;
+        margin-top: 27px;
+        line-height: 25px;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+
+
+
+    }
+    #fechas img{
+        height: 200px;
+    }
+    .cuatro{
+        width: 170px;
+        height: 120px;
+        margin-right: 20px;
+        margin-top: 20px;
+        line-height: 25px;
+        font-size: 13px;
+        padding-top: 12px;
+        padding-bottom: 35px;
+
+
+    }
+    img{
+        width: 200px;
+        height: 150px;
+    }
+    footer p{
+        font-size:15px;
+    }
+}
